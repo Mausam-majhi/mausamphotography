@@ -1,0 +1,364 @@
+html {
+    scroll-behavior: smooth;
+  }
+header {
+    box-shadow: 0 4px 6px -5px gray;
+}
+
+.logo img {
+    padding: 15px;
+}
+
+.nav {
+    padding: 15px;
+    float: right;
+}
+
+.nav .nav-items {
+    text-transform: uppercase;
+    font-weight: 550;
+    padding-right: 50px;
+}
+
+.nav .nav-items .nav-links {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Koulen', cursive;
+}
+
+.nav .nav-items .nav-links:hover {
+    color: #f81c1c;
+    transition: 0.6s ease;
+}
+
+.site-info-section, .site-about-section {
+    padding: 150px 90px;
+}
+
+.site-name {
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Koulen', cursive;
+    letter-spacing: 3px;
+}
+
+.site-name span, .service-offered-text h3 span, .services-title span, .contact-head span {
+    color: #dc3545;
+}
+
+.site-info {
+    padding: 15px 0;
+}
+
+.site-info-img {
+    width: 65%;
+    border-radius: 5px;
+    height: 500px;
+    margin: 70px 120px;
+    background-image: url('/images/dave-hoefler-lsoogGC_5dg-unsplash.jpg');
+    background-size: cover;
+    box-shadow: 10px 10px 20px rgb(193, 193, 193);
+}
+.explore-btn a{
+    text-decoration: none;
+    color: #dc3545;
+}
+.explore-btn:hover a{
+    color: #fff;
+}
+.site-about-img {
+    width: 65%;
+    border-radius: 5px;
+    height: 500px;
+    margin: 70px 120px;
+    background-image: url('/images/michael-henry-5OyGRn_r9Y4-unsplash.jpg');
+    background-size: cover;
+    box-shadow: 10px 10px 20px rgb(193, 193, 193);
+}
+.about-section{
+    background-color: rgb(235, 235, 235);
+    margin-top: 50px;
+}
+.our-services-head{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+.service-offered-text h3{
+    font-size: 40px;
+    margin-left: -20px;
+    font-family: 'Koulen', cursive;
+}
+.shape{
+    width: 80px;
+    height: 10px;
+    border-radius: 0px 10px 0 0;
+    margin: -12px 0 0 -15px;
+    background-color: #dc3545;
+}
+.services-card{
+    width: 100%;
+}
+.service-img {
+    width: 85%;
+    border-radius: 5px;
+    height: 300px;
+    margin: 30px 50px 0 50px;
+    background-image: url('/images/alireza-dolati-OVS3rqXq9gg-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.product-service-img {
+    width: 85%;
+    border-radius: 5px;
+    height: 300px;
+    margin: 30px 50px 0 50px;
+    background-image: url('/images/irene-kredenets-KStSiM1UvPw-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* .miniature-service-img {
+    width: 85%;
+    border-radius: 5px;
+    height: 300px;
+    margin: 30px 50px 0 50px;
+    background-image: url('mohit-suthar-MTGgloByPzY-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+.wedding-service-img {
+    width: 85%;
+    border-radius: 5px;
+    height: 300px;
+    margin: 30px 50px 0 50px;
+    background-image: url('/images/vadim-paripa-PuXtB1B4zL8-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.portrait-service-img {
+    width: 85%;
+    border-radius: 5px;
+    height: 300px;
+    margin: 30px 50px 0 50px;
+    background-image: url('/images/brooke-cagle-W7pk4FfrSY0-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.landscape-service-img {
+    width: 85%;
+    border-radius: 5px;
+    height: 300px;
+    margin: 30px 50px 0 50px;
+    background-image: url('/images/john-mark-arnold-XNIjmb6Ax04-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.realstate-service-img {
+    width: 85%;
+    border-radius: 5px;
+    height: 300px;
+    margin: 30px 50px 0 50px;
+    background-image: url('/images/cristina-villegas-qc1LWHeurG4-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sports-service-img {
+    width: 85%;
+    border-radius: 5px;
+    height: 300px;
+    margin: 30px 50px 0 50px;
+    background-image: url('/images/matthieu-petiard-Pf6e3o0GL4M-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.work-img-left-col {
+    width: 70%;
+    border-radius: 5px;
+    height: 500px;
+    margin: 30px 50px 10px 150px;
+    background-image: url('/images/evgeni-tcherkasski-D4hIejn4VLs-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.work-img-left-col:hover, .work-img-right-col:hover, .service-img:hover{
+    transform: translate(0, -10px);
+    transition: 0.1s ease-in;
+}
+.work-img-right-col{
+    width: 250px;
+    height: 180px;
+    margin: 60px 50px 0px 0px;
+    background-image: url('/images/damir-babacic-UCfTPw4nyr0-unsplash.jpg');
+    background-size: cover;
+}
+.work-img2-right-col{
+    width: 250px;
+    height: 180px;
+    margin: 60px 55px 0px 0px;
+    background-image: url('/images/israel-andrade-YI_9SivVt_s-unsplash.jpg');
+    background-size: cover;
+}
+.work-img3-right-col{
+    width: 250px;
+    height: 180px;
+    margin: 60px 55px 0px 0px;
+    background-image: url('/images/freestocks-_3Q3tsJ01nc-unsplash.jpg');
+    background-size: cover;
+}
+.work-img4-right-col{
+    width: 250px;
+    height: 180px;
+    margin: 60px 55px 0px 0px;
+    background-image: url('/images/daniel-leone-g30P1zcOzXo-unsplash.jpg');
+    background-size: cover;
+}
+.our-work-text, .contact-text{
+    margin-top: 50px;
+}
+.services-title p{
+    /* background:linear-gradient(0deg, rgba(177, 245, 93, 0.3), rgba(128, 87, 250, 0.3)); */
+    padding: 113px 40px;
+    border-radius: 10px;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Koulen', cursive;
+    letter-spacing: 2px;
+}
+.services-title p button{
+    /* margin-top: 50px; */
+    padding: 3px;
+}
+.contact{
+    margin: 0 0 20px 50px;
+}
+.contact-head h3{
+    margin-top: 60px;
+    font-size: 35px;
+    font-family: 'koulen', cursive;
+    text-align: center;
+}
+.contact-form form input{
+    margin: 10px 10px;
+    display: inline-block;
+    width: 46%;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.contact-form form input:focus, .contact-form form select:focus, .contact-form form textarea{
+    outline: none;
+}
+.contact-form form select, .contact-form form textarea{
+    display: block;
+    width: 100%;
+    margin: 20px 10px;
+    padding: 5px;
+}
+.contact-form form button{
+    margin: 0px 10px;
+}
+.site-name-con{
+    font-size: 30px;
+    margin: 40px 70px;
+}
+.site-name-con-foot{
+    font-size: 20px;
+    margin: 35px 50px;
+    color: #fff;
+}
+.social{
+    margin: -180px 70px 0 220px;
+}
+.social-items{
+    display: flex;
+}
+.social-items li {
+    list-style: none;
+}
+.social-items li a{
+    text-decoration: none;
+    color: #000;
+    margin: 0px 10px;
+}
+footer{
+    background-color: #171717;
+}
+
+.nav-foot li{
+    margin: 20px 0;
+}
+.nav-foot li a{
+    text-decoration: none;
+    color: white;
+    padding-right: 50px;
+    font-family: 'koulen', cursive;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.nav-foot li a:hover, .social-foot-links li a:hover{
+    color: #dc3545;
+    transition: 0.6s ease;
+}
+.social-foot-links{
+    display: flex;
+    justify-content: center;
+}
+.social-foot-links li{
+    list-style: none;
+    padding-right: 20px;
+    margin: 35px 0;
+}
+.social-foot-links li a{
+    color: #fff;
+}
+.foot-top{
+    border-bottom: 1px solid #fff;
+}
+.copyright p{
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    font-size: 12px;
+}
+@media only screen and (max-width: 600px) {
+    .logo img{
+        padding: 5px;
+        margin-top: 10px;
+    }
+    .nav .nav-links{
+        display: none;
+    }
+    .hero-section {
+        background-image: url('dave-hoefler-lsoogGC_5dg-unsplash.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .site-info-img {
+        display: none;
+    }
+
+    .site-info-section {
+        padding: 100px 0px;
+    }
+
+    .site-name {
+        font-size: 50px;
+    }
+
+    .site-info {
+        padding-right: 20px;
+        color: #fff;
+    }
+    .site-info-about{
+        color: #000;
+    }
+    .site-about-section{
+        padding: 50px 10px;
+    }
+}
